@@ -1,13 +1,13 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
-
+// import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 /** @type {import('eslint').Linter.Config[]} */
 
-const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
+// const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended');
 
 export default [
-  eslintPluginPrettierRecommended,
+  // eslintPluginPrettierRecommended,
   { files: ['**/*.{js,mjs,cjs,ts}'] },
   {
     languageOptions: {
